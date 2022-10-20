@@ -1,0 +1,253 @@
+.smallCartBox {
+    position: absolute;
+    width: 325px;
+    height: 677px;
+    left: -100px;
+    z-index: 10;
+    top: 55px;
+    box-shadow: 0px 4px 10px rgba(168, 172, 176, 0.438);
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    transition: 100ms;
+}
+
+.frame12 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    width: 293px;
+    height: 538px;
+    overflow: auto;
+}
+
+.smallCartName {
+    width: 118px;
+    height: 26px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: right;
+    color: #1D1F22;
+}
+
+.frame13 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    width: 292px;
+    height: 43px;
+
+}
+
+.viewBag {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    width: 140px;
+    height: 43px;
+    background: #FFFFFF;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+    cursor: pointer;
+}
+
+.checkOut {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 43px;
+    background: #5ECE7B;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+}
+
+.cartItem {
+    display: flex;
+    gap: 2px;
+    width: 293px;
+}
+
+.descriptionCart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 136px;
+
+
+}
+
+.frame3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    width: 136px;
+    height: 82px;
+}
+
+.prodTitle {
+    text-align: start;
+    width: 136px;
+    height: 52px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 160%;
+    color: #1D1F22;
+}
+
+.prodPrice {
+    height: 26px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: right;
+    color: #1D1F22;
+}
+
+.smallAtributName {
+    display: flex;
+    align-items: center;
+    text-align: start;
+    margin: 0;
+    // margin-bottom: 8px;
+    width: 100%;
+    height: 35px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+
+    line-height: 16px;
+}
+
+.smallDefaultAtribut {
+    min-width: 24px;
+    height: 24px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #1D1F22;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    padding: 2px;
+}
+
+.smallColor {
+    width: 16px;
+    height: 16px;
+}
+
+.atributesSmallCart {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.controlQty {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    width: 24px;
+    height: 100%
+}
+
+.plus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border: 1px solid black;
+    cursor: pointer;
+    background: #FFFFFF;
+
+}
+
+.minus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border: 1px solid black;
+    cursor: pointer;
+    background: #FFFFFF;
+}
+
+.qty {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.smallCartPhoto {
+
+    width: 121px;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.smallSize {
+    padding: 2px;
+    height: 24px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #1D1F22;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+
+}
+
+.group405{
+    display: flex;
+    justify-content: space-between;
+    width: 289px;
+     height: 28px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+}

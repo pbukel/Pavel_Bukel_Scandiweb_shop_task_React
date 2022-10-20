@@ -1,0 +1,178 @@
+.cartPage {
+    position: absolute;
+    width: 1250px;
+    height: 1395px;
+    left: 95px;
+    top: 160px;
+    background: #FFFFFF;
+
+}
+
+.cartName {
+    width: 84px;
+    height: 40px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #1D1F22;
+    margin-bottom: 55px;
+}
+
+.BigCartItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 336px;
+    border-top: 1px solid #E5E5E5;
+
+}
+
+.mainCartProductInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 288px;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.qtyImage {
+    display: flex;
+    justify-content: space-between;
+    height: 288px;
+    width: 269px;
+
+}
+
+.qtyControl {
+    height: 288px;
+    width: 45px;
+
+
+}
+
+.mainCartImage {
+    height: 288px;
+    width: 200px;
+}
+
+.inMainCart {
+    margin-bottom: 0;
+}
+
+.m10 {
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+// .mainCartImage {
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-size: 100%;
+// }
+
+.qtyControl {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mainCartplus {
+    width: 45px;
+    height: 45px;
+    background: #FFFFFF;
+
+}
+
+.mainCartMinus {
+    width: 45px;
+    height: 45px;
+    background: #FFFFFF;
+}
+
+.pictureSwitch {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 56px;
+    height: 24px;
+    left: 130px;
+    top: 245px;
+}
+
+.toLeft {
+    width: 24px;
+    height: 24px;
+    background: rgba(0, 0, 0, 0.73);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.toRigth {
+    width: 24px;
+    height: 24px;
+    background: rgba(0, 0, 0, 0.73);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.calculations {
+    border-top: 1px solid #E5E5E5;
+    width: 100%;
+    min-height: 336px;
+    padding-top: 30px;
+    display: flex;
+
+
+}
+
+.calcDataPlace {
+    width: 279px;
+    height: 159px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.orderCalculations{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.tax {
+    height: 28px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1D1F22;
+    span {
+        font-weight: 700;
+    }
+}
+
+.order {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    width: 279px;
+    height: 43px;
+    background: #5ECE7B;
+    border: none;
+    color:#FFFFFF;
+}

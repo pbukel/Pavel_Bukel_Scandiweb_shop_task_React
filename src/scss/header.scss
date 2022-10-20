@@ -1,0 +1,255 @@
+.header{
+    position: absolute;
+        width: 1440px;
+        height: 80px;
+        left: 0px;
+        top: 0px;
+}
+.navigation{
+    /* Navigation */
+    
+    
+        /* Auto layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+    
+        position: absolute;
+        width: 234px;
+        height: 56px;
+        left: 101px;
+        bottom: 0px;
+}
+.header_navigation{
+    /* header__navigation */
+    
+    
+        /* Auto layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        width: 234px;
+        height: 56px;
+    
+    
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+}
+
+.headerElement{
+    display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        padding: 0px;
+    
+        width: 97px;
+        height: 56px;
+    
+    
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        
+}
+
+.Padding_left{
+    /* Padding left */
+    
+    
+        width: 16px;
+        height: 2px;
+    
+        /* --c-primary
+    
+    --_c-orange-primary
+    */
+        // background: #5ECE7B;
+    
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+}
+.Padding_right{
+    /* Padding right */
+    
+    
+        width: 16px;
+        height: 2px;
+    
+        /* --c-primary
+    
+    --_c-orange-primary
+    */
+        // background: #5ECE7B;
+    
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+}
+
+.Label{
+    /* Label */
+    
+    
+        /* Auto layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 30px;
+    
+        width: 65px;
+        height: 52px;
+    
+    
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+}
+.InsideLabel{
+/* Label */
+
+
+    width: 65px;
+    height: 20px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    /* identical to box height, or 19px */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    /* --c-primary */
+
+    // color: #5ECE7B;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.Border{
+/* Border */
+
+
+    width: 65px;
+    height: 2px;
+
+    /* --c-primary
+
+--_c-orange-primary
+*/
+    // background: #5ECE7B;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.a-logo{
+    position: absolute;
+        width: 41px;
+        height: 41px;
+        left: 699px;
+        top: calc(50% - 41px/2 + 4.5px);
+}
+
+.actions{
+    /* Actions */
+    
+    
+        /* Auto layout */
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0px;
+        gap: 22px;
+    
+        position: absolute;
+        width: 204px;
+        height: 40px;
+        right: 101px;
+        top: 23px;
+        // border:1px solid black;
+}
+
+.currancy{
+    width: 50px;
+    height: 29px;
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 160%;
+    cursor: pointer;
+
+}
+
+.currencyComp{
+    width: 38px;
+    height: 29px;
+    select {
+        border: none;
+    }
+}
+.cart{
+
+    width: 20px;
+        height: 20px;
+        cursor: pointer;
+    
+    
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 3;
+        flex-grow: 0;
+        
+
+}
+
+.qtyInCart{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: black;
+    border-radius: 60px;
+    top: 2px;
+    left:197px;
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 14px;
+}
